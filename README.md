@@ -42,11 +42,7 @@ To get information about one MineTag, send a GET request to `/tag/$NAME`.
 
 **Curl Example**
 
-    curl -X GET -H 'Content-type: application/json' "http://boveybrawlers.com/api/tag/AbsoluteCraft"
-    
-**Request Headers**
-
-    Content-type: application/json
+    curl -X GET "http://boveybrawlers.com/api/tag/AbsoluteCraft"
     
 **Response Headers**
 
