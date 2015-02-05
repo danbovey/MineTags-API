@@ -1,6 +1,6 @@
 # MineTags-API
 
-The API endpoints start at `http://boveybrawlers.com/minetags/api`.
+The API endpoints start at `http://api.boveybrawlers.com/minetags`.
 
 ## Retreive MineTags by rank
 
@@ -13,7 +13,7 @@ To show a list of the top MineTags, send a POST request to `/top`.
 
 **Curl Example**
 
-    curl -X POST -H 'Content-Type: application/json' -d '{"page":0,"limit":5}' "http://boveybrawlers.com/minetags/api/top"
+    curl -X POST -H 'Content-Type: application/json' -d '{"page":0,"limit":5}' "http://api.boveybrawlers.com/minetags/top"
     
 **Request Headers**
 
@@ -42,7 +42,7 @@ To get information about one MineTag, send a GET request to `/tag/$NAME`.
 
 **Curl Example**
 
-    curl -X GET "http://boveybrawlers.com/api/tag/AbsoluteCraft"
+    curl -X GET "http://api.boveybrawlers.com/minetags/tag/AbsoluteCraft"
     
 **Response Headers**
 
