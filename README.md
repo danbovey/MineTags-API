@@ -1,8 +1,10 @@
 # MineTags-API
 
+The API endpoints start at `http://boveybrawlers.com/minetags/api`.
+
 ## Retreive MineTags by rank
 
-To show a list of the top MineTags, send a POST request to `/api/top`.
+To show a list of the top MineTags, send a POST request to `/top`.
 
 | Name  | Type   | Default  |
 |-------|--------|----------|
@@ -36,7 +38,7 @@ To show a list of the top MineTags, send a POST request to `/api/top`.
 
 ## Retreive MineTag by name
 
-To get information about one MineTag, send a GET request to `/api/tag/$NAME`.
+To get information about one MineTag, send a GET request to `/tag/$NAME`.
 
 **Curl Example**
 
