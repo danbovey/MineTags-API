@@ -1,3 +1,5 @@
+![MineTags-API](http://i.imgur.com/iXZeY8J.png)
+
 # MineTags-API
 
 The API endpoints start at `http://api.boveybrawlers.com/minetags`.
